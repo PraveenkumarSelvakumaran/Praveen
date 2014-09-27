@@ -1,7 +1,10 @@
-/* Chapter 10
-   PRAVEENKUMAR
-   Exercise 2 */
+
+
+	/* Chapter 10
+    PRAVEENKUMAR
+    Exercise 2 */
    
+
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -15,15 +18,20 @@ bool equalStrings ( const char s1[], const char s2[] )
 		++i;
 	
 	if ( s1[i] == '\0' && s2[i] == '\0' )
+	
 		areEqual = true;
+	
 	else
+	
 		areEqual = false;
 		
 	return areEqual;
 }
 
+
 int main (void)
 {
+	
 	bool equalStrings (const char s1[], const char s2[]);
 	const char stra[] = "string compare test";
 	const char strb[] = "string";
@@ -33,6 +41,7 @@ int main (void)
 	printf ( "%i\n", equalStrings (strb, "string" ) );
 	
 	return 0;
+	
  }
 	
 
