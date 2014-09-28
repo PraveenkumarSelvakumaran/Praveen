@@ -1,9 +1,6 @@
-
-
-	/* Chapter 10
-    PRAVEENKUMAR
-    Exercise 2 */
-   
+/* Chapter 10
+   PRAVEENKUMAR
+   Exercise 2 */
 
 #include <stdio.h>
 #include <stdbool.h>
@@ -28,7 +25,6 @@ bool equalStrings ( const char s1[], const char s2[] )
 	return areEqual;
 }
 
-
 int main (void)
 {
 	
@@ -41,7 +37,6 @@ int main (void)
 	printf ( "%i\n", equalStrings (strb, "string" ) );
 	
 	return 0;
-	
  }
 	
 
